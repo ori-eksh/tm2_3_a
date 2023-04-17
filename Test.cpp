@@ -3,7 +3,6 @@
 #include "sources/Fraction.hpp"
 #include <iostream>
 #include <algorithm>
-// #include <typeinfo>
 #include <sstream>
 using namespace ariel;
 
