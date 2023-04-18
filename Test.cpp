@@ -6,6 +6,14 @@
 #include <sstream>
 using namespace ariel;
 
+TEST_CASE("the build")
+{
+    Fraction num1(2.3);
+
+    CHECK((num1).getDenominator() == 2);
+    CHECK((num1).getNumerator() == 1);
+}
+
 TEST_CASE("the operator +")
 {
     Fraction num1(1, 2);

@@ -17,6 +17,7 @@ namespace ariel
         int getDenominator() const { return this->denominator; }
 
         Fraction(int numerator_, int _denominator) : numerator(numerator_), denominator(_denominator){};
+        Fraction(float numerator) : numerator((int)numerator), denominator((int)numerator){};
 
         friend Fraction operator+(const Fraction &hulf1, const Fraction &hulf2); // Fraction+Fraction
         friend Fraction operator+(const Fraction &hulf1, float num);             // Fraction + float
